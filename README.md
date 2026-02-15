@@ -26,4 +26,4 @@ I created a Google Kubernetes Engine (GKE) cluster named gke-cluster with three 
 
 7) <img width="868" height="741" alt="image" src="https://github.com/user-attachments/assets/78d6139d-5da8-4958-a745-e3ec2d72e75e" />
 
-I ran 
+I ran gcloud artifacts repositories list --location=us-east1 and was confused why it was showing "listed 0 items" and I ran tuo89020@cloudshell:~ (dotted-saga-484500-n2)$ gcloud artifacts repositories list to see where my Artifact Registry was that I created in Lab 1 and was able to locate it in LOCATION: us-east4. After selecting the correct region I was able to proceed with the lab.
