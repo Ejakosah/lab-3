@@ -20,4 +20,6 @@ I enabled the Cloud Resource Manager API, Kubernetes Engine API, and Container R
 
 The Project ID, email and Role was added/replaced successfully.
 
-6)
+6)<img width="908" height="619" alt="image" src="https://github.com/user-attachments/assets/0a74be2d-3969-4d29-ae8b-e027d2e971de" />
+
+
