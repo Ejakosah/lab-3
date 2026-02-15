@@ -15,3 +15,5 @@ I cloned the Google microservices repo which has the orders and products service
 4)<img width="910" height="284" alt="image" src="https://github.com/user-attachments/assets/294ddfe7-0151-4bd8-a056-ac24296399a4" />
 
 I enabled the Cloud Resource Manager API, Kubernetes Engine API, and Container Registry API. These are necessary for making and controlling the Kubernetes cluster and for building & storing container images. After enabling the Container API, I verified that it worked by listing the enabled services.
+
+5) 
