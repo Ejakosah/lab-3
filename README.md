@@ -16,4 +16,8 @@ I cloned the Google microservices repo which has the orders and products service
 
 I enabled the Cloud Resource Manager API, Kubernetes Engine API, and Container Registry API. These are necessary for making and controlling the Kubernetes cluster and for building & storing container images. After enabling the Container API, I verified that it worked by listing the enabled services.
 
-5) 
+5) <img width="776" height="688" alt="image" src="https://github.com/user-attachments/assets/f412b8c7-fd18-41d2-9de2-c7d66298232b" />
+
+The Project ID, email and Role was added/replaced successfully.
+
+6)
