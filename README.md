@@ -26,4 +26,14 @@ I created a Google Kubernetes Engine (GKE) cluster named gke-cluster with three 
 
 7) <img width="868" height="741" alt="image" src="https://github.com/user-attachments/assets/78d6139d-5da8-4958-a745-e3ec2d72e75e" />
 
-I ran gcloud artifacts repositories list --location=us-east1 and was confused why it was showing "listed 0 items" and I ran tuo89020@cloudshell:~ (dotted-saga-484500-n2)$ gcloud artifacts repositories list to see where my Artifact Registry was that I created in Lab 1 and was able to locate it in LOCATION: us-east4. After selecting the correct region I was able to proceed with the lab.
+I ran gcloud artifacts repositories list --location=us-east1 and was confused why it was showing "listed 0 items" and I ran tuo89020@cloudshell:~ (dotted-saga-484500-n2)$ gcloud artifacts repositories list to see where my Artifact Registry (called REPOSITORY: my-repository) was that I created in Lab 1 and was able to locate it in LOCATION: us-east4. After selecting the correct region I was able to proceed with the lab.
+
+8) <img width="806" height="571" alt="image" src="https://github.com/user-attachments/assets/b78b27dd-c8df-49e1-b599-7c8acc5e4bac" />
+
+The name of my repo was listed correctly in the registryUri.
+
+9) <img width="897" height="170" alt="image" src="https://github.com/user-attachments/assets/b9a97e66-8af7-4229-93dc-763ada422d92" />
+
+From my home directory I was able to persist the registry path as an environment variable with my replaced and corrected region location with the environmental variable ART_REG verified.
+
+10) 
