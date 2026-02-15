@@ -23,3 +23,4 @@ The Project ID, email and Role was added/replaced successfully.
 6)<img width="908" height="619" alt="image" src="https://github.com/user-attachments/assets/0a74be2d-3969-4d29-ae8b-e027d2e971de" />
 
 
+I created a Google Kubernetes Engine (GKE) cluster named gke-cluster with three worker nodes. After the cluster was up & running, I configured kubectl access and got the cluster credentials. I made sure there was connectivity to the cluster by running kubectl get nodes, which showed all three nodes in the Ready state.
