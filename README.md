@@ -50,3 +50,5 @@ I used Google Cloud Build to build Docker images for both microservices and push
 11) Task 6 — Deploy products and orders to GKE using YAML manifests.
 <img width="570" height="362" alt="image" src="https://github.com/user-attachments/assets/7d069e0d-3a7a-4735-a050-022b9890aa98" />
 
+<img width="637" height="640" alt="image" src="https://github.com/user-attachments/assets/1091f37a-2c00-414a-9d93-b110e821db3e" />
+
