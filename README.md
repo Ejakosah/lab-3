@@ -34,6 +34,12 @@ The name of my repo was listed correctly in the registryUri.
 
 9) <img width="897" height="170" alt="image" src="https://github.com/user-attachments/assets/b9a97e66-8af7-4229-93dc-763ada422d92" />
 
+<img width="1238" height="631" alt="Screenshot 2026-02-15 145649" src="https://github.com/user-attachments/assets/05d3133c-c49f-465e-a3aa-044c76c6c4d4" />
+
+
+<img width="744" height="206" alt="Screenshot 2026-02-15 145714" src="https://github.com/user-attachments/assets/a98eec77-65b5-460a-b47d-643366a0aa7f" />
+
+
 From my home directory I was able to persist the registry path as an environment variable with my replaced and corrected region location with the environmental variable ART_REG verified.
 
 10) 
