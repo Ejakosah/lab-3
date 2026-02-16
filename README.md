@@ -39,12 +39,10 @@ The name of my repo was listed correctly in the registryUri.
 
 <img width="744" height="206" alt="Screenshot 2026-02-15 145714" src="https://github.com/user-attachments/assets/a98eec77-65b5-460a-b47d-643366a0aa7f" />
 
-
 From my home directory I was able to persist the registry path as an environment variable with my replaced and corrected region location with the environmental variable ART_REG verified.
 
 10) Now I'm building the orders image:
 
-    
-<img width="608" height="204" alt="Screenshot 2026-02-15 192500" src="https://github.com/user-attachments/assets/06152285-4887-4feb-8315-30bc3626699c" />
-
 <img width="806" height="283" alt="Screenshot 2026-02-15 192533" src="https://github.com/user-attachments/assets/922f4876-ce9f-4d88-bb53-a1e67eb98052" />
+
+I used Google Cloud Build to build Docker images for both microservices and pushed them to Artifact Registry so Kubernetes could deploy them later.
