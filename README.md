@@ -46,3 +46,7 @@ From my home directory I was able to persist the registry path as an environment
 <img width="806" height="283" alt="Screenshot 2026-02-15 192533" src="https://github.com/user-attachments/assets/922f4876-ce9f-4d88-bb53-a1e67eb98052" />
 
 I used Google Cloud Build to build Docker images for both microservices and pushed them to Artifact Registry so Kubernetes could deploy them later.
+
+11) Task 6 — Deploy products and orders to GKE using YAML manifests.
+<img width="570" height="362" alt="image" src="https://github.com/user-attachments/assets/7d069e0d-3a7a-4735-a050-022b9890aa98" />
+
