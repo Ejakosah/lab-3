@@ -42,4 +42,9 @@ The name of my repo was listed correctly in the registryUri.
 
 From my home directory I was able to persist the registry path as an environment variable with my replaced and corrected region location with the environmental variable ART_REG verified.
 
-10) 
+10) Now I'm building the orders image:
+
+    
+<img width="608" height="204" alt="Screenshot 2026-02-15 192500" src="https://github.com/user-attachments/assets/06152285-4887-4feb-8315-30bc3626699c" />
+
+<img width="806" height="283" alt="Screenshot 2026-02-15 192533" src="https://github.com/user-attachments/assets/922f4876-ce9f-4d88-bb53-a1e67eb98052" />
