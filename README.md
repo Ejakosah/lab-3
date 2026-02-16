@@ -53,3 +53,5 @@ I used Google Cloud Build to build Docker images for both microservices and push
 <img width="637" height="640" alt="image" src="https://github.com/user-attachments/assets/1091f37a-2c00-414a-9d93-b110e821db3e" />
 
 I created a Kubernetes Deployment and Service for the products microservice using YAML files. There were 3 replicas so Kubernetes automatically runs three pods using the container image. The ClusterIP service allows internal communication within the cluster by mapping port 80 to the container port. kubectl apply, the pods initially showed as unavailable while starting, but soon all three were running successfully. I also deleted one pod to demonstrate Kubernetes self-healing, and the system automatically created a replacement pod.
+
+12) Step 6 — Inspect Selectors and Confirm How the Service Binds to Pods
