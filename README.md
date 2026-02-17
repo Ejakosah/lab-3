@@ -58,3 +58,11 @@ I created a Kubernetes Deployment and Service for the products microservice usin
 <img width="1835" height="796" alt="image" src="https://github.com/user-attachments/assets/2b58abf0-13b4-43f8-b5bc-c4953b40f8a9" />
 
 The products pods are running and correctly labeled, and that the products-service is using the selector app=products to connect to those pods. Two temporary client pods (dns-client and http-client) were created to test communication inside the cluster. The DNS lookup confirms that the service name resolves to a ClusterIP address, and the curl request successfully retrieves product data from the API through the service. The Kubernetes service discovery and internal networking are working properly so the pods can communicate using the service name instead of individual pod IP addresses.
+
+13) Task 7 — Quick Deployment and Testing of the orders Microservice (Repeat + Validate)
+    <img width="889" height="799" alt="image" src="https://github.com/user-attachments/assets/322f18a9-7caf-4a39-b071-789c1ccc88bb" />
+
+<img width="1021" height="788" alt="image" src="https://github.com/user-attachments/assets/8644c9bc-1239-400c-afcd-0b7f79a335bf" />
+
+<img width="1845" height="355" alt="image" src="https://github.com/user-attachments/assets/4246fd22-e55f-426e-8742-26afea6aed85" />
+
