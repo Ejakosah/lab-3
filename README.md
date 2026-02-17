@@ -77,7 +77,7 @@ I correctly deleted everything.
 
 1) d
    
-2) A Kubernetes Service provides a stable way to access a microservice by g
+2) A Kubernetes Service provides a stable way to access a microservice by using a consistent name/IP address inside cluster. Clients use the Service name instead of the Pod IP's b/c the the IP will change everytime the Pod is remade. Labels/selectors connect the Service to the Pod by seeing the correct Service selector like app = products with the correct pod with the same label. Communication would often be a struggle when you restart a Pod b/c the IP addresses would change which is why you utilize the methods we've been shown with services so clients don't have to use IP's directly.
    
 3) d
    
