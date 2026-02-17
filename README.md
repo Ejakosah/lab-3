@@ -66,3 +66,4 @@ The products pods are running and correctly labeled, and that the products-servi
 
 <img width="1845" height="355" alt="image" src="https://github.com/user-attachments/assets/4246fd22-e55f-426e-8742-26afea6aed85" />
 
+Creation and deployment of the orders microservice in Kubernetes. An orders.yaml file was made containing both a Deployment with three replicas and a ClusterIP Service. After applying the configuration, the deployment successfully started with all pods running and assigned IP addresses. DNS testing from the dns-client pod confirmed that the service name resolves to a ClusterIP, and curl requests from the http-client pod successfully retrieved order data from the API. EndpointSlice correctly maps the service to the IP addresses of the running pods, showing internal networking and service discovery within the cluster.
