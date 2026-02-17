@@ -57,3 +57,4 @@ I created a Kubernetes Deployment and Service for the products microservice usin
 12) Step 6 — Inspect Selectors and Confirm How the Service Binds to Pods
 <img width="1835" height="796" alt="image" src="https://github.com/user-attachments/assets/2b58abf0-13b4-43f8-b5bc-c4953b40f8a9" />
 
+The products pods are running and correctly labeled, and that the products-service is using the selector app=products to connect to those pods. Two temporary client pods (dns-client and http-client) were created to test communication inside the cluster. The DNS lookup confirms that the service name resolves to a ClusterIP address, and the curl request successfully retrieves product data from the API through the service. The Kubernetes service discovery and internal networking are working properly so the pods can communicate using the service name instead of individual pod IP addresses.
