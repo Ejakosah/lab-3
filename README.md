@@ -75,7 +75,7 @@ I correctly deleted everything.
 
 15) Reflection Questions
 
-1) d
+1) A Deployment is the top-level controller that manages the application and makes sure the correct number of replicas are running. This is used to control the updates and the maintainance. The ReplicaSet’s job is to maintain the number of Pods you make so if anything happens to them then a new one will be made immediately. Pods are considered ephemeral because they are temporary and can be replaced at any time. When I deleted the Pod, Kubernetes created a new one instantly w/a new name and IP address showing that Pods aren't permanent and are managed by controllers.
    
 2) A Kubernetes Service provides a stable way to access a microservice by using a consistent name/IP address inside cluster. Clients use the Service name instead of the Pod IP's b/c the the IP will change everytime the Pod is remade. Labels/selectors connect the Service to the Pod by seeing the correct Service selector like app = products with the correct pod with the same label. Communication would often be a struggle when you restart a Pod b/c the IP addresses would change which is why you utilize the methods we've been shown with services so clients don't have to use IP's directly.
    
